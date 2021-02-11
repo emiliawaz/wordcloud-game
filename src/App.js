@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss'
+import { useState } from 'react'
+import Welcome from './components/Welcome/Welcome'
+import Game from './components/Game/Game'
+import Score from './components/Score/Score'
 
-function App() {
+const App = () => {
+  const [step, setStep] = useState(""),
+    [nickname, setNickname] = useState(""),
+    [points, setPoints] = useState(0)
+
+  const getDataFromChild = (data) => {
+    setStep(data.step ? data.step : step)
+    setNickname(data.nickname ? data.nickname : nickname)
+    setPoints(data.points ? data.points : points)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {step.length ?
+        step === 'game' ?
+          <Game onButtonClick={(data) => { getDataFromChild(data) }}/>
+          :
+          <Score nickname={nickname} points={points}/>
+      :
+        <Welcome onButtonClick={(data) => { getDataFromChild(data) }}/>
+      }
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

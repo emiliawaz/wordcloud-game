@@ -1,0 +1,17 @@
+@import '../../styles/colors.scss';
+
+.c-button {
+  color: $blue;
+  font-size: .9rem;
+  border: 1px solid $blue;
+  background: $white;
+  cursor: pointer;
+  border-radius: .3rem;
+  padding: .5rem 1.5rem;
+  display: block;
+  margin: 1rem auto auto;
+
+  &:hover {
+    background: $light-grey;
+  }
+}

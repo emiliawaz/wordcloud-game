@@ -1,0 +1,16 @@
+@import '../../styles/colors.scss';
+
+.c-score__title {
+  margin-bottom: 0;
+}
+
+.c-score__result {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.c-score__points {
+  color: $blue;
+  display: block;
+  margin-top: 1rem;
+}
