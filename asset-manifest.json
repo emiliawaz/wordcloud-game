@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wordcloud-game/static/css/main.d6ea4465.chunk.css",
+    "main.js": "/wordcloud-game/static/js/main.6684d2af.chunk.js",
+    "main.js.map": "/wordcloud-game/static/js/main.6684d2af.chunk.js.map",
+    "runtime-main.js": "/wordcloud-game/static/js/runtime-main.3bd3982d.js",
+    "runtime-main.js.map": "/wordcloud-game/static/js/runtime-main.3bd3982d.js.map",
+    "static/js/2.25cf36ef.chunk.js": "/wordcloud-game/static/js/2.25cf36ef.chunk.js",
+    "static/js/2.25cf36ef.chunk.js.map": "/wordcloud-game/static/js/2.25cf36ef.chunk.js.map",
+    "static/js/3.b3e7317b.chunk.js": "/wordcloud-game/static/js/3.b3e7317b.chunk.js",
+    "static/js/3.b3e7317b.chunk.js.map": "/wordcloud-game/static/js/3.b3e7317b.chunk.js.map",
+    "index.html": "/wordcloud-game/index.html",
+    "static/css/main.d6ea4465.chunk.css.map": "/wordcloud-game/static/css/main.d6ea4465.chunk.css.map",
+    "static/js/2.25cf36ef.chunk.js.LICENSE.txt": "/wordcloud-game/static/js/2.25cf36ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bd3982d.js",
+    "static/js/2.25cf36ef.chunk.js",
+    "static/css/main.d6ea4465.chunk.css",
+    "static/js/main.6684d2af.chunk.js"
+  ]
+}
